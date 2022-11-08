@@ -13,4 +13,4 @@ jerseyClient:
   keepAlive: 0ms
   retries: 0
 
-norrisBaseUrl: https://api.chucknorris.io/
+norrisBaseUrl: https://api.chucknorris.io
