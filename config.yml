@@ -1,0 +1,16 @@
+logging:
+  level: INFO
+  loggers:
+    com.sang: DEBUG
+
+jerseyClient:
+  timeout: 2000ms
+  connectionTimeout: 2000ms
+  timeToLive: 1h
+  cookiesEnabled: false
+  maxConnections: 1024
+  maxConnectionsPerRoute: 1024
+  keepAlive: 0ms
+  retries: 0
+
+norrisBaseUrl: https://api.chucknorris.io/
